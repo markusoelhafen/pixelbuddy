@@ -127,9 +127,12 @@ article:nth-child(odd) .feature-copy {
 
 article .feature-media {
   max-width: 100%;
-  background-color: #FFE860;
   border: 4px solid black;
   box-shadow: 4px 4px 0 0 black;
+}
+
+article .feature-media img {
+  max-width: 100%;
 }
 
 /* Accordion */
