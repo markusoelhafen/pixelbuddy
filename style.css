@@ -7,7 +7,9 @@
 html {
 	font-family: -apple-system, Helvetica,  Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -42,14 +44,23 @@ p > strong {
 }
 
 .wrapper, .border-line {
-  max-width: 960px;
-  margin: 0 auto;
+  padding: 020px;
   position: relative;
 }
 
 section {
   margin-bottom: 0px;
-  padding: 80px 0;
+  padding: 60px 0;
+}
+
+@media (min-width: 540px) {
+  .wrapper, .border-line {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  section {
+    padding: 80px 0;
+  }
 }
 
 .border-line {
@@ -61,20 +72,17 @@ section {
 
 header {
   background-color: #FFE860;
-  padding: 80px 0 40px 0;
-  margin-bottom: 80px;
+  padding: 40px 0 40px 0;
+  margin-bottom: 20px;
 }
 
-.header-copy {
-  margin-left: 240px;
-}
-
-.header-copy p {
-  margin-bottom: 40px;
+.header-copy p:first-of-type {
+  margin-bottom: 60px;
+  margin-left: 100px;
 }
 
 .btn {
-  display: inline-block;
+  display: block;
   padding: 15px 30px;
   background-color: black;
   color: white;
@@ -82,6 +90,7 @@ header {
   text-decoration: none;
   transition: all .3s;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -90,13 +99,40 @@ header {
 
 header .pixelbuddy {
   position: absolute;
-  transform: scale(2.8);
-  bottom: -20px;
-  left: 100px;
+  transform: scale(2);
+  top: 160px;
+  left: 30px;
 }
 
 .header-copy > *:last-child {
   margin-bottom: 0;
+}
+
+@media (min-width: 540px) {
+  header {
+    padding: 80px 40px 40px 40px;
+    margin-bottom: 80px;
+  }
+
+  .header-copy {
+    margin-left: 240px;
+  }
+
+  .header-copy p:first-of-type {
+    margin-left: 0;
+  }
+  
+  header .pixelbuddy {
+    position: absolute;
+    transform: scale(2.8);
+    bottom: -20px;
+    left: 100px;
+    top: initial;
+  }
+
+  .btn {
+    display: inline-block;
+  }
 }
 
 /* Demo */
@@ -117,11 +153,8 @@ video {
 
 article {
   display: flex;
-  margin-bottom: 120px;
-}
-
-article > div {
-  width: 50%;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 article .feature-copy {
@@ -129,11 +162,6 @@ article .feature-copy {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-article:nth-child(odd) .feature-copy {
-  order: 2;
-  padding-left: 60px; 
 }
 
 .feature-copy h3 {
@@ -148,6 +176,20 @@ article .feature-media {
 
 article .feature-media img {
   max-width: 100%;
+}
+
+@media (min-width: 540px) {
+  article {
+    flex-direction: row;
+    margin-bottom: 120px;
+  }
+  article > div {
+    width: 50%;
+  }
+  article:nth-child(odd) .feature-copy {
+    order: 2;
+    padding-left: 60px; 
+  }
 }
 
 /* Accordion */
