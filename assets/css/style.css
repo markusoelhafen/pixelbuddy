@@ -56,9 +56,13 @@ html {
   display: inline; }
 
 header {
+  background-color: white;
   position: sticky;
-  top: 0;
-  background-color: white; }
+  top: 0; }
+
+footer {
+  background-color: black;
+  color: white; }
 
 .menu {
   display: flex;
@@ -69,6 +73,8 @@ header {
   font-size: 15px; }
   .menu .title {
     font-weight: 600; }
+  .menu .author a {
+    text-decoration: underline; }
   .menu ul {
     display: flex;
     align-items: center; }

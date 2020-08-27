@@ -1,7 +1,12 @@
 header {
+  background-color: white;
   position: sticky;
   top: 0;
-  background-color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
 
 .menu {
@@ -14,6 +19,10 @@ header {
 
   .title {
     font-weight: 600;
+  }
+
+  .author a {
+    text-decoration: underline;
   }
 
   ul {
