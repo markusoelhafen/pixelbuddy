@@ -6,6 +6,7 @@
 @import 'fifty';
 @import 'benefits';
 @import 'mediaplayer';
+@import 'teaser';
 
 .wrapper {
   max-width: calc(#{$max-width} + (#{$tower}*2));

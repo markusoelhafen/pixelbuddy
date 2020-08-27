@@ -4,10 +4,17 @@ h1, h2, h3 {
 
 p {
   font-weight: 300;
+  @include sp-bot($space-s);
+  max-width: 740px;
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .order-1 {
   font-size: 30px;
+  @include sp-bot($space-m);
 
   @media (min-width: $breakpoint-1) {
     font-size: 40px;
@@ -16,6 +23,7 @@ p {
 
 .order-2 {
   font-size: 25px;
+  @include sp-bot($space-m);
 
   @media (min-width: $breakpoint-1) {
     font-size: 30px;

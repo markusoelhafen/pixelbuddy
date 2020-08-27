@@ -1,0 +1,12 @@
+.teaser {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: $space-xl 0;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
