@@ -21,7 +21,6 @@ header {
     align-items: center;
 
     li {
-      list-style-type: none;
       margin-left: 20px;
       @media (min-width: $breakpoint-1) {
         margin-left: 40px;

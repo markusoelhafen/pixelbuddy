@@ -2,6 +2,8 @@
 @import 'typography';
 @import 'menu';
 @import 'fifty';
+@import 'benefits';
+@import 'mediaplayer';
 
 .wrapper {
   max-width: calc(#{$max-width} + (24px*2));
