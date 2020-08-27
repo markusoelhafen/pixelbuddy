@@ -28,6 +28,12 @@ html {
 .sp-bot-xxl {
   margin-bottom: 200px; }
 
+h1, h2, h3 {
+  font-weight: 600; }
+
+p {
+  font-weight: 300; }
+
 .order-1 {
   font-size: 30px; }
   @media (min-width: 720px) {
@@ -51,6 +57,12 @@ html {
   @media (min-width: 720px) {
     .copy-small {
       font-size: 15px; } }
+
+.bold {
+  font-weight: 600; }
+
+.regular {
+  font-weight: 300; }
 
 .inline {
   display: inline; }
@@ -93,12 +105,23 @@ footer {
       .menu ul li a:hover {
         text-decoration: underline; }
 
-.btn-small {
-  padding: 6px 12px;
-  background-color: black;
-  color: white; }
-  .btn-small:hover {
-    cursor: pointer; }
+.hero {
+  margin: 100px 0 100px 0;
+  text-align: center; }
+  @media (min-width: 720px) {
+    .hero {
+      margin: 200px 0 100px 0; } }
+  .hero > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; }
+  .hero .logo {
+    margin-bottom: 20px; }
+    .hero .logo object {
+      width: 100%; }
+  .hero h2 {
+    margin-bottom: 40px; }
 
 .fifty-fifty {
   display: flex;
@@ -170,3 +193,14 @@ footer {
   @media (min-width: 720px) {
     .desk {
       display: initial; } }
+
+.btn {
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  transition: all .3s; }
+  .btn.small {
+    padding: 6px 12px; }
+  .btn:hover {
+    cursor: pointer;
+    transform: translateY(-3px); }

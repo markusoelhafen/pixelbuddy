@@ -2,6 +2,7 @@
 @import 'space';
 @import 'typography';
 @import 'menu';
+@import 'hero';
 @import 'fifty';
 @import 'benefits';
 @import 'mediaplayer';
@@ -29,4 +30,20 @@
     display: initial;
   }
 
+}
+
+.btn {
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  transition: all .3s;
+
+  &.small {
+    padding: 6px 12px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+  }
 }
