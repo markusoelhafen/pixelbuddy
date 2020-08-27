@@ -10,6 +10,7 @@ $space-xxl:   200px;
   margin-bottom: $property;
 }
 
+.sp-bot-s { @include sp-bot($space-s)}
 .sp-bot-m { @include sp-bot($space-m)}
 .sp-bot-l { @include sp-bot($space-l);}
 .sp-bot-xl { @include sp-bot($space-xl)}

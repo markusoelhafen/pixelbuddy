@@ -16,6 +16,9 @@ html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
+.sp-bot-s {
+  margin-bottom: 10px; }
+
 .sp-bot-m {
   margin-bottom: 20px; }
 
@@ -60,12 +63,16 @@ p {
   @media (min-width: 720px) {
     .copy {
       font-size: 20px; } }
-
-.copy-small {
-  font-size: 12px; }
-  @media (min-width: 720px) {
-    .copy-small {
-      font-size: 15px; } }
+  .copy-small {
+    font-size: 12px; }
+    @media (min-width: 720px) {
+      .copy-small {
+        font-size: 15px; } }
+  .copy-tiny {
+    font-size: 10px; }
+    @media (min-width: 720px) {
+      .copy-tiny {
+        font-size: 12px; } }
 
 .bold {
   font-weight: 600; }
@@ -142,16 +149,18 @@ footer {
   max-width: calc(960px + (24px*2));
   margin: 0 auto;
   padding: 0 24px; }
-  .fifty-fifty .text {
+  .fifty-fifty .content {
     margin-bottom: 40px; }
-    .fifty-fifty .text h2, .fifty-fifty .text p {
-      display: inline; }
+    .fifty-fifty .content .text {
+      margin-bottom: 40px; }
+      .fifty-fifty .content .text h2, .fifty-fifty .content .text p {
+        display: inline; }
   .fifty-fifty .media img {
     max-width: 100%; }
   @media (min-width: 720px) {
     .fifty-fifty {
       flex-direction: row; }
-      .fifty-fifty .text, .fifty-fifty .media {
+      .fifty-fifty .content, .fifty-fifty .media {
         width: 50%; }
       .fifty-fifty .media {
         padding: 0 calc(100vw/12); } }
@@ -159,7 +168,7 @@ footer {
       .fifty-fifty .media {
         padding: 0 calc(960px/12); } }
   @media (min-width: 720px) {
-      .fifty-fifty.inverted .text {
+      .fifty-fifty.inverted .content {
         order: 2; }
       .fifty-fifty.inverted .media {
         order: 1; } }
@@ -216,6 +225,7 @@ footer {
       display: initial; } }
 
 .btn {
+  display: inline-block;
   padding: 15px 20px;
   background-color: black;
   color: white;
