@@ -5,10 +5,14 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Sass Compile",
-      "type": "shell",
-      "command": "node-sass assets/css/style.scss assets/css/style.css",
-      "group": "build"
+      "type": "gulp",
+      "task": "default",
+      "problemMatcher": [],
+      "label": "gulp: default",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
   ]
 }
