@@ -15,7 +15,11 @@ p {
 }
 
 .order-2 {
-  font-size: 30px;
+  font-size: 25px;
+
+  @media (min-width: $breakpoint-1) {
+    font-size: 30px;
+  }
 }
 
 .order-3 {

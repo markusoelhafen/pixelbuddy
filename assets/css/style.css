@@ -41,7 +41,10 @@ p {
       font-size: 40px; } }
 
 .order-2 {
-  font-size: 30px; }
+  font-size: 25px; }
+  @media (min-width: 720px) {
+    .order-2 {
+      font-size: 30px; } }
 
 .order-3 {
   font-size: 24px; }
