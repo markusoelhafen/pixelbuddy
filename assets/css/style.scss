@@ -1,0 +1,9 @@
+@import 'base';
+@import 'typography';
+@import 'menu';
+
+.wrapper {
+  max-width: calc(#{$max-width} + (24px*2));
+  margin: 0 auto;
+  padding: 0 24px;
+}
