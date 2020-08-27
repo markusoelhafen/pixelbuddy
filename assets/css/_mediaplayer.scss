@@ -1,0 +1,14 @@
+.media-player {
+  margin: 0 24px;
+  border: 4px solid black;
+  box-shadow: 4px 4px 0 0 black;
+
+  @media (min-width: calc(#{$max-width} + (24px*2))) {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  video {
+    width: 100%;
+  }
+}
