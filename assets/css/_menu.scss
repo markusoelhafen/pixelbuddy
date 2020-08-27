@@ -13,7 +13,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   padding: $space-m 0;
   font-size: 15px;
 
@@ -21,29 +22,28 @@ footer {
     font-weight: 600;
   }
 
-  .author a {
+  .author {
+    flex-shrink: 0;
+    margin-bottom: 10px;
+
+    a {
     text-decoration: underline;
+    }
   }
 
   ul {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 
     li {
-      margin-left: $space-m;
+      margin-right: $space-m;
       @media (min-width: $breakpoint-1) {
-        margin-left: $space-l;
-      }
-
-      &:first-of-type {
-        margin-left: 0;
+        margin-right: $space-l;
       }
 
       &:last-of-type {
-        display: none;
-        @media (min-width: $breakpoint-1) {
-          display: initial;
-        }
+        margin-right: 0;
       }
 
       a:hover {

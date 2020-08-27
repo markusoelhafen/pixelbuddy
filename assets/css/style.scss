@@ -21,3 +21,12 @@
     }
   }
 }
+
+.desk {
+  display: none;
+  
+  @media (min-width: $breakpoint-1) {
+    display: initial;
+  }
+
+}
