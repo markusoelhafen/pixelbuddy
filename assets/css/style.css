@@ -73,6 +73,9 @@ p {
 .regular {
   font-weight: 300; }
 
+.strikethrough {
+  text-decoration: line-through; }
+
 .inline {
   display: inline; }
 
@@ -170,9 +173,9 @@ footer {
   .benefits ul {
     display: flex; }
     .benefits ul li {
-      flex-grow: 1;
       padding: 0 20px;
-      text-align: center; }
+      text-align: center;
+      flex-basis: 100%; }
 
 .media-player {
   margin: 0 24px;

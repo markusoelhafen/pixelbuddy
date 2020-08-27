@@ -10,9 +10,9 @@
     display: flex;
 
     li {
-      flex-grow: 1;
       padding: 0 $space-m;
       text-align: center;
+      flex-basis: 100%;
     }
   }
 }
