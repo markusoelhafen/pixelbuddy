@@ -19,9 +19,5 @@
     @media (min-width: $breakpoint-1) {
       @include sp-bot($space-xxl);
     }
-
-    &:last-of-type {
-      margin-bottom: 0;
-    }
   }
 }

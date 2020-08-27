@@ -1,6 +1,7 @@
 header {
   position: sticky;
   top: 0;
+  background-color: white;
 }
 
 .menu {
@@ -9,7 +10,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: $space-m 0;
-  background-color: white;
   font-size: 15px;
 
   .title {
