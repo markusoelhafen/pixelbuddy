@@ -6,10 +6,15 @@
   margin: 0 auto;
   padding: 0 $tower;
 
-  .text {
+  .content {
     margin-bottom: $space-l;
-    h2, p {
-      display: inline;
+
+    .text {
+      @include sp-bot($space-l);
+
+      h2, p {
+        display: inline;
+      }
     }
   }
 
@@ -20,7 +25,7 @@
   @media (min-width: $breakpoint-1){
     flex-direction: row;
 
-    .text, .media {
+    .content, .media {
       width: 50%;
     }
 
@@ -33,7 +38,7 @@
     }
 
     &.inverted {
-      .text {order:2}
+      .content {order:2}
       .media {order:1}
     }
   }
