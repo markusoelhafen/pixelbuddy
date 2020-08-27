@@ -1,0 +1,53 @@
+header {
+  position: sticky;
+  top: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: white;
+  font-size: 15px;
+
+  .title {
+    font-weight: 600;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+
+    li {
+      list-style-type: none;
+      margin-left: 40px;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      &:last-of-type {
+        display: none;
+        @media (min-width: $breakpoint-1) {
+          display: initial;
+        }
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.btn-small {
+  padding: 6px 12px;
+  background-color: black;
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

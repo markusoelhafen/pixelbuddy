@@ -1,0 +1,27 @@
+.order-1 {
+  font-size: 40px;
+}
+
+.order-2 {
+  font-size: 30px;
+}
+
+.order-3 {
+ font-size: 24px;
+}
+
+.copy {
+  font-size: 15px;
+
+  @media (min-width: $breakpoint-1) {
+    font-size: 20px;
+  }
+}
+
+.copy-small {
+  font-size: 12px;
+
+  @media (min-width: $breakpoint-1) {
+    font-size: 15px;
+  }
+}
