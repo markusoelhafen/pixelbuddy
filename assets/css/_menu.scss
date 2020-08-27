@@ -22,7 +22,10 @@ header {
 
     li {
       list-style-type: none;
-      margin-left: 40px;
+      margin-left: 20px;
+      @media (min-width: $breakpoint-1) {
+        margin-left: 40px;
+      }
 
       &:first-of-type {
         margin-left: 0;

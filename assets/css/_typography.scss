@@ -1,5 +1,9 @@
 .order-1 {
-  font-size: 40px;
+  font-size: 30px;
+
+  @media (min-width: $breakpoint-1) {
+    font-size: 40px;
+  }
 }
 
 .order-2 {
@@ -24,4 +28,8 @@
   @media (min-width: $breakpoint-1) {
     font-size: 15px;
   }
+}
+
+.inline {
+  display: inline;
 }

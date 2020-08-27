@@ -1,0 +1,40 @@
+.fifty-fifty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: calc(#{$max-width} + (24px*2));
+  margin: 0 auto;
+  padding: 0 24px;
+
+  .text {
+    margin-bottom: 40px;
+    h2, p {
+      display: inline;
+    }
+  }
+
+  .media img {
+    max-width: 100%;
+  }
+
+  @media (min-width: $breakpoint-1){
+    flex-direction: row;
+
+    .text, .media {
+      width: 50%;
+    }
+
+    .media {
+      padding: 0 calc(100vw/12);
+
+      @media (min-width: 960px) {
+        padding: 0 calc(960px/12);
+      }
+    }
+
+    &.inverted {
+      .text {order:2}
+      .media {order:1}
+    }
+  }
+}

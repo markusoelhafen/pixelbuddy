@@ -1,9 +1,20 @@
 @import 'base';
 @import 'typography';
 @import 'menu';
+@import 'fifty';
 
 .wrapper {
   max-width: calc(#{$max-width} + (24px*2));
   margin: 0 auto;
   padding: 0 24px;
+}
+
+.features {
+  > div {
+    margin-bottom: 200px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
 }
