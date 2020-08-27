@@ -175,16 +175,24 @@ footer {
 
 .benefits {
   padding: 40px 0;
-  margin-bottom: 100px; }
+  margin-bottom: 40px; }
   @media (min-width: 720px) {
     .benefits {
       margin-bottom: 200px; } }
   .benefits ul {
-    display: flex; }
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 720px) {
+      .benefits ul {
+        flex-direction: row; } }
     .benefits ul li {
+      flex-basis: 100%;
       padding: 0 20px;
       text-align: center;
-      flex-basis: 100%; }
+      margin-bottom: 20px; }
+      @media (min-width: 720px) {
+        .benefits ul li {
+          margin-bottom: 0; } }
 
 .media-player {
   margin: 0 24px;
