@@ -1,0 +1,13 @@
+.benefits {
+  padding: 40px 0;
+
+  ul {
+    display: flex;
+
+    li {
+      flex-grow: 1;
+      padding: 0 20px;
+      text-align: center;
+    }
+  }
+}
