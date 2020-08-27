@@ -1,0 +1,28 @@
+.hero {
+  margin: $space-xl 0 $space-xl 0;
+  text-align: center;
+
+  @media (min-width: $breakpoint-1) {
+    margin: $space-xxl 0 $space-xl 0; 
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .logo {
+    @include sp-bot($space-m);
+    
+    object {
+      width: 100%;
+    }
+  }
+
+  h2 {
+    @include sp-bot($space-l);
+  }
+
+}
