@@ -8,7 +8,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: $space-m 0;
   background-color: white;
   font-size: 15px;
 
@@ -21,9 +21,9 @@ header {
     align-items: center;
 
     li {
-      margin-left: 20px;
+      margin-left: $space-m;
       @media (min-width: $breakpoint-1) {
-        margin-left: 40px;
+        margin-left: $space-l;
       }
 
       &:first-of-type {

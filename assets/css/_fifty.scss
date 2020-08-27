@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: calc(#{$max-width} + (24px*2));
+  max-width: calc(#{$max-width} + (#{$tower}*2));
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 $tower;
 
   .text {
-    margin-bottom: 40px;
+    margin-bottom: $space-l;
     h2, p {
       display: inline;
     }
@@ -27,8 +27,8 @@
     .media {
       padding: 0 calc(100vw/12);
 
-      @media (min-width: 960px) {
-        padding: 0 calc(960px/12);
+      @media (min-width: $max-width) {
+        padding: 0 calc(#{$max-width}/12);
       }
     }
 

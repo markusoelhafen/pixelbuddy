@@ -1,11 +1,12 @@
 .media-player {
-  margin: 0 24px;
+  margin: 0 $tower;
   border: 4px solid black;
   box-shadow: 4px 4px 0 0 black;
 
-  @media (min-width: calc(#{$max-width} + (24px*2))) {
+  @media (min-width: calc(#{$max-width} + (#{$tower}*2))) {
     max-width: $max-width;
     margin: 0 auto;
+    @include sp-bot($space-l);
   }
 
   video {

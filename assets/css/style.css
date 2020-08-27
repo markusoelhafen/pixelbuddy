@@ -16,6 +16,18 @@ html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
+.sp-bot-m {
+  margin-bottom: 20px; }
+
+.sp-bot-l {
+  margin-bottom: 40px; }
+
+.sp-bot-xl {
+  margin-bottom: 100px; }
+
+.sp-bot-xxl {
+  margin-bottom: 200px; }
+
 .order-1 {
   font-size: 30px; }
   @media (min-width: 720px) {
@@ -112,7 +124,11 @@ header {
         order: 1; } }
 
 .benefits {
-  padding: 40px 0; }
+  padding: 40px 0;
+  margin-bottom: 100px; }
+  @media (min-width: 720px) {
+    .benefits {
+      margin-bottom: 200px; } }
   .benefits ul {
     display: flex; }
     .benefits ul li {
@@ -127,7 +143,8 @@ header {
   @media (min-width: calc(960px + (24px*2))) {
     .media-player {
       max-width: 960px;
-      margin: 0 auto; } }
+      margin: 0 auto;
+      margin-bottom: 40px; } }
   .media-player video {
     width: 100%; }
 
@@ -137,6 +154,9 @@ header {
   padding: 0 24px; }
 
 .features > div {
-  margin-bottom: 200px; }
+  margin-bottom: 100px; }
+  @media (min-width: 720px) {
+    .features > div {
+      margin-bottom: 200px; } }
   .features > div:last-of-type {
     margin-bottom: 0; }

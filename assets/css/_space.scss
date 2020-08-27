@@ -1,0 +1,15 @@
+$tower:       24px;
+
+$space-m:     20px;
+$space-l:     40px;
+$space-xl:    100px;
+$space-xxl:   200px;
+
+@mixin sp-bot($property) {
+  margin-bottom: $property;
+}
+
+.sp-bot-m { @include sp-bot($space-m)}
+.sp-bot-l { @include sp-bot($space-l);}
+.sp-bot-xl { @include sp-bot($space-xl)}
+.sp-bot-xxl { @include sp-bot($space-xxl);}
