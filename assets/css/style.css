@@ -88,6 +88,33 @@ p {
 .inline {
   display: inline; }
 
+.btn, .btn-small {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  transition: all .3s; }
+  .btn-small, .btn-small-small {
+    padding: 6px 12px; }
+  .btn:hover, .btn-small:hover {
+    transform: translateY(-3px); }
+
+.link-arrow {
+  position: relative;
+  display: inline-block;
+  padding: 10px 50px 10px 20px;
+  margin-left: -20px;
+  color: #000000; }
+  .link-arrow::after {
+    content: url("../media/arrow.svg");
+    position: absolute;
+    right: 25px;
+    transition: all .3s; }
+  .link-arrow:hover {
+    background-color: #FFF3E0; }
+    .link-arrow:hover:after {
+      transform: translateX(5px); }
+
 header {
   background-color: white;
   position: sticky;
@@ -236,14 +263,3 @@ footer {
   @media (min-width: 720px) {
     .desk {
       display: initial; } }
-
-.btn, .btn-small {
-  display: inline-block;
-  padding: 15px 20px;
-  background-color: black;
-  color: white;
-  transition: all .3s; }
-  .btn-small, .btn-small-small {
-    padding: 6px 12px; }
-  .btn:hover, .btn-small:hover {
-    transform: translateY(-3px); }

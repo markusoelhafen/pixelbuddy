@@ -1,6 +1,7 @@
 @import 'base';
 @import 'space';
 @import 'typography';
+@import 'links';
 @import 'menu';
 @import 'hero';
 @import 'fifty';
@@ -31,20 +32,4 @@
     display: initial;
   }
 
-}
-
-.btn, .btn-small {
-  display: inline-block;
-  padding: 15px 20px;
-  background-color: black;
-  color: white;
-  transition: all .3s;
-
-  &-small {
-    padding: 6px 12px;
-  }
-
-  &:hover {
-    transform: translateY(-3px);
-  }
 }
