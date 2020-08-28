@@ -8,13 +8,15 @@ ul, li {
 
 a {
   color: inherit;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: url("../media/cursor_pointer.svg"), auto; }
 
 html {
   width: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  cursor: url("../media/cursor_arrow.svg"), auto; }
 
 .sp-bot-s {
   margin-bottom: 10px; }
@@ -137,7 +139,7 @@ footer {
     justify-items: center; }
   .hero .logo {
     margin-bottom: 20px; }
-    .hero .logo object {
+    .hero .logo img {
       width: 100%; }
   .hero h2 {
     margin-bottom: 40px; }
@@ -168,9 +170,9 @@ footer {
       .fifty-fifty .media {
         padding: 0 calc(960px/12); } }
   @media (min-width: 720px) {
-      .fifty-fifty.inverted .content {
+      .fifty-fifty.flipped .content {
         order: 2; }
-      .fifty-fifty.inverted .media {
+      .fifty-fifty.flipped .media {
         order: 1; } }
 
 .benefits {
@@ -208,12 +210,15 @@ footer {
 
 .teaser {
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: white;
   padding: 100px 0; }
   .teaser > div {
     display: flex;
     flex-direction: column;
     align-items: center; }
+  .teaser.inverted {
+    background-color: #1F252C;
+    color: white; }
 
 .wrapper {
   max-width: calc(960px + (24px*2));
@@ -241,5 +246,4 @@ footer {
   .btn-small, .btn-small-small {
     padding: 6px 12px; }
   .btn:hover, .btn-small:hover {
-    cursor: pointer;
     transform: translateY(-3px); }
