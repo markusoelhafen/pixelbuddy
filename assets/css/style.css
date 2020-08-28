@@ -232,14 +232,14 @@ footer {
     .desk {
       display: initial; } }
 
-.btn {
+.btn, .btn-small {
   display: inline-block;
   padding: 15px 20px;
   background-color: black;
   color: white;
   transition: all .3s; }
-  .btn.small {
+  .btn-small, .btn-small-small {
     padding: 6px 12px; }
-  .btn:hover {
+  .btn:hover, .btn-small:hover {
     cursor: pointer;
     transform: translateY(-3px); }
