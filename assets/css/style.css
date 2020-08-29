@@ -9,7 +9,7 @@ ul, li {
 a {
   color: inherit;
   text-decoration: none;
-  cursor: url("../media/cursor_pointer.svg"), auto; }
+  cursor: url("../media/cursor_pointer.svg") 12 0, auto; }
 
 html {
   width: 100%;
