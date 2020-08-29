@@ -10,12 +10,14 @@
     margin-bottom: $space-l;
 
     .text {
-      @include sp-bot($space-l);
-
       h2, p {
         display: inline;
       }
+      + * {
+        margin-top: $space-l;
+      }
     }
+
   }
 
   .media img {

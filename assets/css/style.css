@@ -183,10 +183,10 @@ footer {
   padding: 0 24px; }
   .fifty-fifty .content {
     margin-bottom: 40px; }
-    .fifty-fifty .content .text {
-      margin-bottom: 40px; }
-      .fifty-fifty .content .text h2, .fifty-fifty .content .text p {
-        display: inline; }
+    .fifty-fifty .content .text h2, .fifty-fifty .content .text p {
+      display: inline; }
+    .fifty-fifty .content .text + * {
+      margin-top: 40px; }
   .fifty-fifty .media img {
     max-width: 100%; }
   @media (min-width: 720px) {
