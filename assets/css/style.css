@@ -251,7 +251,38 @@ footer {
     background-color: #1F252C;
     color: white; }
 
-.wrapper {
+.sidebar {
+  width: 25%; }
+  .sidebar li, .sidebar a {
+    margin-bottom: 10px;
+    display: block; }
+  .sidebar > ul > li {
+    margin-bottom: 20px; }
+  .sidebar ul > li > ul {
+    margin-left: 10px; }
+  .sidebar .active {
+    color: #F59500; }
+  .sidebar li a:hover {
+    opacity: 80%; }
+
+.guides {
+  margin-left: 8.33%; }
+  .guides h1 {
+    margin: 30px 0; }
+    .guides h1:first-of-type {
+      margin-top: 0; }
+  .guides h2 {
+    margin: 20px 0; }
+  .guides h3 {
+    margin: 15px 0; }
+  .guides p + h1, .guides p + h2 {
+    margin-top: 40px; }
+  .guides p + h3 {
+    margin-top: 30px; }
+  .guides p > a {
+    color: #F59500; }
+
+.wrapper, .main {
   max-width: calc(960px + (24px*2));
   margin: 0 auto;
   padding: 0 24px; }
@@ -267,3 +298,8 @@ footer {
   @media (min-width: 720px) {
     .desk {
       display: initial; } }
+
+.main {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row; }
