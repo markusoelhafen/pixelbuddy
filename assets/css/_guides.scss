@@ -37,4 +37,10 @@
     box-shadow: 3px 3px 0 0 black;
     margin: 0 10px 30px 10px;
   }
+
+  .no-frame > img {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+  }
 }

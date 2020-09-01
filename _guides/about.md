@@ -9,6 +9,7 @@ toc: true
 
 ## What is Pixelbuddy?
 ![Pixelbuddy waving](/assets/media/pixelbuddy.svg)
+{: .no-frame}
 
 Pixelbuddy is a pixel character builder, that utilizes Figma and it’s components to make creating pixel avatars a breeze.
 Figma is a digital and collaborative design tool that runs in the browser – OS agnostic. Also there’s a free plan available.
