@@ -11,12 +11,19 @@ a {
   text-decoration: none;
   cursor: url("../media/cursor_pointer.svg") 12 0, auto; }
 
+html, body {
+  height: 100%; }
+
 html {
   width: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   cursor: url("../media/cursor_arrow.svg"), auto; }
+
+body {
+  display: flex;
+  flex-direction: column; }
 
 .sp-bot-s {
   margin-bottom: 10px; }
@@ -93,7 +100,7 @@ p {
   padding: 15px 20px;
   background-color: black;
   color: white;
-  transition: all .3s; }
+  transition: transform .3s; }
   .btn-small, .btn-small-small {
     padding: 6px 12px; }
   .btn:hover, .btn-small:hover {
@@ -123,7 +130,8 @@ header {
 
 footer {
   background-color: black;
-  color: white; }
+  color: white;
+  margin-top: auto; }
 
 .menu {
   display: flex;
@@ -266,7 +274,8 @@ footer {
     opacity: 80%; }
 
 .guides {
-  margin-left: 8.33%; }
+  margin-left: 8.33%;
+  margin-bottom: 200px; }
   .guides h1 {
     margin: 30px 0; }
     .guides h1:first-of-type {
@@ -282,7 +291,7 @@ footer {
   .guides p > a {
     color: #F59500; }
 
-.wrapper, .main {
+.wrapper {
   max-width: calc(960px + (24px*2));
   margin: 0 auto;
   padding: 0 24px; }

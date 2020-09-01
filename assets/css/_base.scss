@@ -20,10 +20,19 @@ a {
   cursor: url('../media/cursor_pointer.svg') 12 0, auto;
 }
 
+html, body {
+  height: 100%;
+}
+
 html {
   width: 100%;
   font-family: $font-stack;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   cursor: url('../media/cursor_arrow.svg'), auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }

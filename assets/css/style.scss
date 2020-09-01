@@ -11,7 +11,7 @@
 @import 'sidebar';
 @import 'guides';
 
-.wrapper, .main {
+.wrapper {
   max-width: calc(#{$max-width} + (#{$tower}*2));
   margin: 0 auto;
   padding: 0 $tower;
