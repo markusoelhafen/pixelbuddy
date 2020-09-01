@@ -2,6 +2,7 @@
 
   margin-left: 8.33%;
   margin-bottom: $space-xxl;
+  width: 75%;
 
   h1 {
     margin: 30px 0;
@@ -29,5 +30,35 @@
 
   p > a {
     color: $yellow;
+  }
+  
+  ol, ul {
+    font-weight: 300;
+    padding-left: 20px;
+    margin-bottom: 20px;
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  ol li {
+    list-style: decimal;
+  }
+
+  ul li {
+    list-style: disc;
+  }
+
+  img {
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 0 black;
+    margin: 0 10px 30px 10px;
+  }
+
+  .no-frame > img {
+    border: none;
+    box-shadow: none;
+    margin: 0;
   }
 }
