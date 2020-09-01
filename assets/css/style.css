@@ -23,7 +23,8 @@ html {
 
 body {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-top: 70px; }
 
 .sp-bot-s {
   margin-bottom: 10px; }
@@ -124,8 +125,9 @@ p {
 
 header {
   background-color: white;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 1000; }
 
 footer {
