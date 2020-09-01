@@ -1,0 +1,47 @@
+.fifty-fifty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: calc(#{$max-width} + (#{$tower}*2));
+  margin: 0 auto;
+  padding: 0 $tower;
+
+  .content {
+    margin-bottom: $space-l;
+
+    .text {
+      h2, p {
+        display: inline;
+      }
+      + * {
+        margin-top: $space-l;
+      }
+    }
+
+  }
+
+  .media img {
+    max-width: 100%;
+  }
+
+  @media (min-width: $breakpoint-1){
+    flex-direction: row;
+
+    .content, .media {
+      width: 50%;
+    }
+
+    .media {
+      padding: 0 calc(100vw/12);
+
+      @media (min-width: $max-width) {
+        padding: 0 calc(#{$max-width}/12);
+      }
+    }
+
+    &.flipped {
+      .content {order:2}
+      .media {order:1}
+    }
+  }
+}

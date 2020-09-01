@@ -1,266 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Pixelbuddy</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="theme-color" content="#E90F73" />
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta charset="UTF-8">
-		<meta name="description" content="Build your own little pixel self in Figma with Pixelbuddy">
-		<meta name="author" content="Markus &Ouml;lhafen">
-		<meta property="og:title" content="Pixelbuddy">
-		<meta property="og:description" content="Build your own little pixel self in Figma with Pixelbuddy">
-		<meta property="og:url" content="https://www.markusoelhafen.com/pixelbuddy">
-		<meta property="og:image" content="https://markusoelhafen.com/assets/apple-touch-icon-144x144.png">
-		<link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <div class="wrapper">
-        <h1>Pixelbuddy</h1>
-        <div class="header-copy">
-          <p>
-            <strong>Hello there!</strong> <br/>
-            Pixelbuddy is a Figma based pixel character builder. You can build and customize your own pixelated mini-you.
-          </p>
-          <a href="https://www.figma.com/file/FL9vQKJFP0y5aJVQGuMUVM/Pixelbuddy/duplicate" target="_blank" class="btn">Open the template in Figma</a>
-          <p class="small-copy">
-            If you don't have a Figma accoount, join <a href="https://www.figma.com" target="_blank">here</a> for free.
-          </p>
-        </div>
-        <object type="image/svg+xml" data="./assets/media/pixelbuddy.svg" class="pixelbuddy">
-          Pixelbuddy
-        </object>
+---
+layout: default
+---
+
+<div class="hero">
+  <div class="wrapper">
+    <div class="logo">
+      <img src="./assets/media/pixelbuddy_logo.svg" />
+    </div>
+    <h2 class="order-2 regular">A Figma based pixel character builder.</h2>
+    <a href="https://www.figma.com/file/FL9vQKJFP0y5aJVQGuMUVM/Pixelbuddy/duplicate" target="_blank">
+      <div class="btn copy-small">Open template in Figma</div>
+    </a>
+  </div>
+</div>
+
+<div class="media-player">
+  <video autoplay muted loop>
+    <source src="./assets/media/pixelbuddy-demo-video.mov" type="video/mp4">
+  </video>
+</div>
+
+<div class="benefits">
+  <div class="wrapper">
+    <ul>
+      <li>
+        <h3 class="order3">110.000+ combination</h3>
+        <p>Choose your face, clothing, hair and combine it to your unique version</p>
+      </li>
+      <li>
+        <h3 class="order3">Drag, Drop, Done</h3>
+        <p>Just drag from Figma assets on the Artboard and you're done!</p>
+      </li>
+      <li>
+        <h3 class="order3">Vectors > Pixel</h3>
+        <p><span class="strikethrough">Pixel</span>Vectorbuddy is based on Vectors which makes skaling a breeze</p>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="features">
+
+  <div class="fifty-fifty">
+    <div class="content">
+      <div class="text">
+        <h2 class="order-1">Choose out of 60+ outfit combinations. </h2>
+        <p class="order-1">Easily switch your Buddy's look with the component selector.</p>
       </div>
-    </header>
+    </div>
+    <div class="media">
+      <img src="assets/media/pxlbdy_feat_combinations.svg" />
+    </div>
+  </div>
 
-    <section class="demo">
-      <div class="wrapper">
-        <video autoplay muted loop>
-          <source src="./assets/media/pixelbuddy-demo-video.mov" type="video/mp4" />
-        </video>
+  <div class="fifty-fifty flipped">
+    <div class="content">
+      <div class="text">
+        <h2 class="order-1">So much expression with so less pixel. </h2>
+        <p class="order-1">Choose the face and hairstyles to match your style.</p>
       </div>
-    </section>
+    </div>
+    <div class="media">
+      <img src="assets/media/pxlbdy_feat_faces.svg" />
+    </div>
+  </div>
 
-    <section class="features">
-      <div class="wrapper">
-
-        <article class="feature">
-          <div class="feature-copy">
-            <h3>So many options!</h3>
-            <p>Choose from a wide selection of predefined options. Shirts, pants, hair, accesories. Angry faces, sad faces, tired faces, you name it. And there is even more to come in the future!</p>
-          </div>
-          <div class="feature-media">
-            <img src="./assets/media/pb-clothing-change.gif" />
-          </div>
-        </article>
-
-        <article class="feature">
-          <div class="feature-copy">
-            <h3>So many colors!</h3>
-            <p>Simply choose from the lots and lots of predefined colors. Shades and lightning automatically adjust. And if you want your custom color – go ahead, this is still Figma, a design tool with ALL the colors.</p>
-          </div>
-          <div class="feature-media">
-            <img src="./assets/media/pb-color-change.gif" />
-          </div>
-        </article>
-
+  <div class="fifty-fifty">
+    <div class="content">
+      <div class="text">
+        <h2 class="order-1">Pixelbuddy is running on Figma. </h2>
+        <p class="order-1">With the power of Figma, the whole pixelate world is open to your creations.</p>
       </div>
-    </section>
+      <!-- <div class="btn sp-bot-m">Learn how to customize</div> -->
+      <a href="/guides/customize.html" class="link-arrow copy sp-bot-s">Learn how to customize</a>
+      <p class="copy-small">
+        Not familiar with Figma? <br />
+        Check out the <a href="/guides/">guides</a> or visit <a href="https://figma.com">Figma</a>.
+      </p>
+    </div>
 
-    <section class="collaboration">
-      <div class="wrapper">
-        <h2>You want to help make Pixelbuddy better?</h2>
-        <p>
-          That's awesome!<br />
-          You have an idea how to make Pixelbuddy better, or just wish for a fun component? Or are you a designer and have lots great ideas for lovely pixelart? <br />
-          Hop over to github and create an issue!
-        </p>
-        <a href="https://github.com/markusoelhafen/pixelbuddy/issues/new?assignees=&labels=&template=component-request.md&title=" class="btn" target="_blank">Create github issue</a>
-      </div>
-    </section>
-    <!-- <div class="border-line"></div> -->
+    <div class="media">
+      <img src="assets/media/pxlbdy_feat_figma.svg" />
+    </div>
+  </div>
 
-    <section class="faqs">
-      <div class="wrapper">
-        <h2>FAQs</h2>
-        <div class="tabs">
-          <div class="tab">
-            <input type="checkbox" id="faq1" name="faq">
-            <label class="tab-label" for="faq1">Where do I find these components?</label>
-            <div class="tab-content">
-              <p>
-                In Figma, components are found in the ‘Assets’ tab in the top left corner.
-              </p>
-              <div class="media-wrapper">
-                <img src="./assets/media/faq-1-asset-tab.png">
-              </div>
-              <p>
-                If the toggle is not yet open, click on ‘Local components’ and the toggles (like clothing, head & hair) options in there. 
-                Once everything is opened you see little previews of the components.
-                Switch between list and tile view via the switch next to the search.
-              </p>
-              <div class="media-wrapper">
-                <img src="./assets/media/faq-1-components-list-view.png">
-                <span>List View</span>
-              </div>
-              <div class="media-wrapper">
-                <img src="./assets/media/faq-1-components-tile-view.png">
-                <span>Tile View</span>
-              </div>
-            </div>
-          </div>
+</div>
 
-          <div class="tab">
-            <input type="checkbox" id="faq2" name="faq">
-            <label class="tab-label" for="faq2">How do I use components?</label>
-            <div class="tab-content">
-              <p>Pick the one you want to use and drag'n'drop them on your Artboard</p>
-              <div class="media-wrapper">
-                <img src="./assets/media/faq-2-drag.png">
-                <span>Drag …</span>
-              </div>
-              <div class="media-wrapper">
-                <img src="./assets/media/faq-2-drop.png">
-                <span>…'n'Drop</span>
-              </div>
-            </div>
-          </div>
+<div class="teaser inverted">
+  <div class="wrapper">
 
-          <div class="tab">
-            <input type="checkbox" id="faq3" name="faq">
-            <label class="tab-label" for="faq3">How do I replace components?</label>
-            <div class="tab-content">
-              <p>Option 1: Delete the component and place the desired component</p>
-              <p>Option 2: You can exchange the components with each other via the component selector. <br />
-                Select the element you want to exchange. <br />
-                On the right hand panel you find the section called ‘Instance’. In the dropddown below, select the option you want to use.</p>
-                <div class="media-section">
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-3-instance-selection.png">
-                    <span>Select instance</span>
-                  </div>
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-3-instance-flyout.png">
-                    <span>Select new component</span>
-                  </div>
-                </div>
-            </div>
-          </div>
+    <h2 class="order-1">
+      Help to make Pixelbuddy better
+    </h2>
+    <p class="copy">
+      Pixelbuddy is open source and released under the MIT license. 
+    </p>
+    <p class="copy">
+      Feel free to duplicate, iterate or just make your own version of a pixel character builder.
+    </p>
+    <p class="copy">
+      If you want to contribute and help to make Pixelbuddy better and better, hop over to github and <a href="https://github.com/markusoelhafen/pixelbuddy/issues/new?assignees=&labels=&template=component-request.md&title=">create an issue</a>.
+    </p>
 
-          <div class="tab">
-            <input type="checkbox" id="faq4" name="faq">
-            <label class="tab-label" for="faq4">How can I change colors?</label>
-            <div class="tab-content">
-              <p>Select the component you want to change colors.<br/>
-                In the right hand toolbar you find the section ‘Selection Colors’. Click on one color and the ‘Color Styles’ flyout open</p>
-                <div class="media-section">
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-4-color-object.png">
-                    <span>Select the component</span>
-                  </div>
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-4-color-section.png">
-                    <span>Select the color to change</span>
-                  </div>
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-4-color-flyout.png">
-                    <span>Select new color</span>
-                  </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="tab">
-            <input type="checkbox" id="faq5" name="faq">
-            <label class="tab-label" for="faq5">I don't see all available color options!</label>
-            <div class="tab-content">
-              <p>Sometimes a component or group contains too many colors to be directly displayed in the ‘Selection Colors’ area. <br />
-                To display all, just click on ‘See all x styles’.</p>
-                <div class="media-section">
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-5-color.png">
-                    <span>Click to show all colors</span>
-                  </div>
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-5-all-color.png">
-                    <span>All colors of a component</span>
-                  </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="tab">
-            <input type="checkbox" id="faq6" name="faq">
-            <label class="tab-label" for="faq6">How can I use custom colors?</label>
-            <div class="tab-content">
-              <p>If the predefined color options are not enough, you can of course define your own.
-                Click on the little <strong>unlink icon</strong> right next to the predefined solor in the ‘Selection Colors’ area.
-                Then you can work with the Figma regular color picker.</p>
-                <div class="media-section">
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-6-color-unlink.png">
-                    <span>Click unlink icon</span>
-                  </div>
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-6-color-hex.png">
-                    <span>Click on Color / Hex Code</span>
-                  </div>
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-6-color-picker.png">
-                    <span>Color Picker</span>
-                  </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="tab">
-            <input type="checkbox" id="faq7" name="faq">
-            <label class="tab-label" for="faq7">How can I export my Pixelbuddy?</label>
-            <div class="tab-content">
-              <ol>
-                <li>
-                  First you should select all components of your character. Click and drag to select everything.
-                  <u>Attention:</u> Make sure the guides are out of the way.
-                </li>
-                <li>
-                  Then group the layers by clicking CMD + G // CTRL + G. The outlines of the elements should be merged to only one blue outline.
-                </li>
-                <li>
-                  In the right toobar on the bottom you find the area ‘Export’. Click there and select your desired file format.
-                  For most cases PNG is just fine.
-                </li>
-                <li>
-                  Optional: You can select a scaling, by clicking on the dropdown next to the ‘1x’.
-                </li>
-              </ol>
-                <div class="media-section">
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-7-export-elements.png">
-                    <span>Select whole character</span>
-                  </div>
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-7-export-group.png">
-                    <span>Grouped Elements</span>
-                  </div>
-                  <div class="media-wrapper">
-                    <img src="./assets/media/faq-7-export-dialog.png">
-                    <span>Export Options</span>
-                  </div>
-                </div>
-            </div>
-          </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="wrapper">
-        <span>Built by <a href="https://markusoelhafen.com/">Markus Ölhafen</a></span>
-        <ul>
-          <li><a href="https://markusoelhafen.com/sitesnotice.html" target="_blank">Sites Notice</a></li>
-          <li><a href="https://markusoelhafen.com/privacypolicy.html" target="_blank">Privacy Policy</a></li>
-        </ul>
-      </div>
-    </footer>
-  </body>
-</html>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+.btn, .btn-small {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  transition: transform .3s;
+
+  &-small {
+    padding: 6px 12px;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.link-arrow {
+  position: relative;
+  display: inline-block;
+  padding: 10px 50px 10px 20px;
+  margin-left: -20px;
+  color: #000000;
+
+  &::after {
+    content: url('../media/arrow.svg');
+    position: absolute;
+    right: 25px;
+    transition: all .3s;
+  }
+
+  &:hover {
+    background-color: #FFF3E0;
+    &:after {
+      transform: translateX(5px);
+    }
+  }
+}

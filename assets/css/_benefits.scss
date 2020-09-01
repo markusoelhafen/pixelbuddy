@@ -1,0 +1,28 @@
+.benefits {
+  padding: $space-l 0;
+  @include sp-bot($space-l);
+  
+  @media (min-width: $breakpoint-1) {
+    @include sp-bot($space-xxl);
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $breakpoint-1) {
+      flex-direction: row;
+    }
+
+    li {
+      flex-basis: 100%;
+      padding: 0 $space-m;
+      text-align: center;
+      @include sp-bot($space-m);
+      
+      @media (min-width: $breakpoint-1) {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

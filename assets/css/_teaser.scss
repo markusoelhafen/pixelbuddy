@@ -1,0 +1,16 @@
+.teaser {
+  text-align: center;
+  background-color: white;
+  padding: $space-xl 0;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &.inverted {
+    background-color: #1F252C;
+    color: white;
+  }
+}

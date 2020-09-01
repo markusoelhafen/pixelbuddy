@@ -1,6 +1,14 @@
 header {
+  background-color: white;
   position: sticky;
   top: 0;
+  z-index: 1000;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: auto;
 }
 
 .menu {
@@ -8,46 +16,45 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
-  background-color: white;
+  flex-wrap: wrap;
+  padding: $space-m 0;
   font-size: 15px;
 
   .title {
     font-weight: 600;
   }
 
+  .author {
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    
+    @media (min-width: $breakpoint-1){
+      margin-bottom: 0;
+    }
+
+    a {
+    text-decoration: underline;
+    }
+  }
+
   ul {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 
     li {
-      list-style-type: none;
-      margin-left: 40px;
-
-      &:first-of-type {
-        margin-left: 0;
+      margin-right: $space-m;
+      @media (min-width: $breakpoint-1) {
+        margin-right: $space-l;
       }
 
       &:last-of-type {
-        display: none;
-        @media (min-width: $breakpoint-1) {
-          display: initial;
-        }
+        margin-right: 0;
       }
 
       a:hover {
         text-decoration: underline;
       }
     }
-  }
-}
-
-.btn-small {
-  padding: 6px 12px;
-  background-color: black;
-  color: white;
-
-  &:hover {
-    cursor: pointer;
   }
 }

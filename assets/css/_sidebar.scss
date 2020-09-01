@@ -1,0 +1,25 @@
+.sidebar {
+
+  width: 25%;
+
+  li, a{
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  > ul > li {
+    margin-bottom: 20px;
+  }
+
+  ul > li > ul {
+    margin-left: 10px;
+  }
+
+  .active {
+    color: $yellow;
+  }
+
+  li a:hover {
+    opacity: 80%;
+  }
+}

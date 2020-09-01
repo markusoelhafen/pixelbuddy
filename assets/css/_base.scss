@@ -2,15 +2,26 @@ $font-stack: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, H
 $max-width: 960px;
 $breakpoint-1: 720px;
 
+$yellow: #F59500;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+ul, li {
+  list-style-type: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+  cursor: url('../media/cursor_pointer.svg') 12 0, auto;
+}
+
+html, body {
+  height: 100%;
 }
 
 html {
@@ -18,4 +29,10 @@ html {
   font-family: $font-stack;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  cursor: url('../media/cursor_arrow.svg'), auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }

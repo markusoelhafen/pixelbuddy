@@ -1,0 +1,18 @@
+collections:
+  guides:
+    order:
+      - about.md
+      - getting_started.md
+      - components.md
+      - colors.md
+      - export.md
+      - customization.md
+      - whats_new.md
+    output: true
+
+plugins:
+  - jekyll-toc
+
+toc:
+  min_level: 2
+  max_level: 2
