@@ -31,6 +31,24 @@
   p > a {
     color: $yellow;
   }
+  
+  ol, ul {
+    font-weight: 300;
+    padding-left: 20px;
+    margin-bottom: 20px;
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  ol li {
+    list-style: decimal;
+  }
+
+  ul li {
+    list-style: disc;
+  }
 
   img {
     border: 3px solid black;

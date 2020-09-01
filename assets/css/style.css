@@ -293,6 +293,16 @@ footer {
     margin-top: 30px; }
   .guides p > a {
     color: #F59500; }
+  .guides ol, .guides ul {
+    font-weight: 300;
+    padding-left: 20px;
+    margin-bottom: 20px; }
+    .guides ol li, .guides ul li {
+      margin-bottom: 10px; }
+  .guides ol li {
+    list-style: decimal; }
+  .guides ul li {
+    list-style: disc; }
   .guides img {
     border: 3px solid black;
     box-shadow: 3px 3px 0 0 black;
