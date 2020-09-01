@@ -1,0 +1,16 @@
+<aside class="sidebar copy-small">
+  <ul>
+
+    {% for guide in site.guides %}
+    <li>
+      {% if guide.title == page.title %}
+        <a href="{{ guide.url }}" class="active bold">{{ guide.title }}</a>
+        {% toc %}
+      {% else %}
+        <a href="{{ guide.url }}" class="bold">{{ guide.title }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+    
+  </ul>
+</aside>

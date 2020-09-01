@@ -8,8 +8,10 @@
 @import 'benefits';
 @import 'mediaplayer';
 @import 'teaser';
+@import 'sidebar';
+@import 'guides';
 
-.wrapper {
+.wrapper, .main {
   max-width: calc(#{$max-width} + (#{$tower}*2));
   margin: 0 auto;
   padding: 0 $tower;
@@ -32,4 +34,10 @@
     display: initial;
   }
 
+}
+
+.main {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
 }

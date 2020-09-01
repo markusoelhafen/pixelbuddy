@@ -1,17 +1,9 @@
-# About
-
-## What is Pixelbuddy?
-Pixelbuddy is a pixel character builder, that utilizes Figma and it’s components to make creating pixel avatars a breeze.
-Figma is a digital and collaborative design tool that runs in the browser – OS agnostic. Also there’s a free plan available.
-
-If you’re not familiar with Figma, the guides on this page help you to make your first steps in Figma. If you want to learn more, hop over to [figma.com](https://figma.com), check their ressources and sign up for a free plan.
-
-
-## Does it cost anything?
-No. 
-Pixelbuddy is – and will be – free to use and so is Figma in its free plan. Also, Pixelbuddy is open source and released under the [MIT license](https://github.com/markusoelhafen/pixelbuddy/blob/master/LICENSE).
-
 ---
+layout: guide
+title: Getting Started
+toc: true
+---
+
 # Getting started
 To start playing around with Pixelbuddy all you need is a browser, a (free) Figma account and a copy of the Pixelbuddy template.
 
@@ -36,43 +28,16 @@ On the right hand panel you will probably see a long list of colors at first gla
 
 As soon as you select a component or any other element it shows this elements properties. You can ignore most of the properties, but the *Instance* and *Selection Colors* areas.
 
-With *Instance* you can easily switch one component with another. Learn more in the [components section]() of this guide.
+With *Instance* you can easily switch one component with another. Learn more in the [components section](./components.html) of this guide.
 
-The *Selection Colors* area enables you to select a color for the element you just selected. Learn more in the [colors section]() of this guide.
+The *Selection Colors* area enables you to select a color for the element you just selected. Learn more in the [colors section](./colors.html) of this guide.
 
 #### Center Panel
+In the middle you can arrange your *Artboards* or *Frames*. These area is your canvas and where you create your designs. With the Pixelbuddy template this is the area where you use the components. 
 
+Once you copied the Pixelbuddy template you should see many of these Artboards already arranged. Use your mousewheel (while holding cmd/ctrl), trackpad or the zoom settings on the top right to focus on the top left Artboard t get you started.
 
-## Using the template
+## Getting the template
+If you haven't done it before [download](https://www.figma.com/file/FL9vQKJFP0y5aJVQGuMUVM/Pixelbuddy/duplicate) the Pixelbuddy template. This will automatically create a duplicate of the original file. Don't worry if you change a component, make your own or do anything else in the file: it's a copy, the original will be untouched.
 
----
-
-## Components
-
-### Where do I find these components?
-
-### How do I use components?
-
-### How do I replace components?
-
----
-
-## Colors
-
-### How can I change colors?
-
-### I don't see all available color options?
-
-### How can I use custom colors?
-
---- 
-
-## Export
-
----
-
-## Customization
-
---- 
-
-## What's new?
+From here you can start building your Pixelbuddy. Take the components, change colors, export and make your own customizations.

@@ -1,174 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Pixelbuddy</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="theme-color" content="#E90F73" />
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta charset="UTF-8">
-		<meta name="description" content="Build your own little pixel self in Figma with Pixelbuddy">
-		<meta name="author" content="Markus &Ouml;lhafen">
-		<meta property="og:title" content="Pixelbuddy">
-		<meta property="og:description" content="Build your own little pixel self in Figma with Pixelbuddy">
-		<meta property="og:url" content="https://pixelbuddy.xyz">
-		<meta property="og:image" content="https://pixelbuddy.xyz/assets/apple-touch-icon-144x144.png">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="wrapper">
+---
+layout: default
+---
 
-        <div class="menu">
-          
-          <div class="title">
-            <a href="">Pixelbuddy</a>
-          </div>
-  
-          <div class="nav">
-            <ul>
-              <li>
-                <a href="">How to use</a>
-              </li>
-              <li>
-                <a href="https://github.com/markusoelhafen/pixelbuddy/blob/master/CHANGELOG.md" target="_blank">What's new</a>
-              </li>
-              <li class="desk">
-                <a href="https://www.figma.com/file/FL9vQKJFP0y5aJVQGuMUVM/Pixelbuddy/duplicate" target="_blank">
-                  <div class="btn-small">
-                    Get started
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
+<div class="hero">
+  <div class="wrapper">
+    <div class="logo">
+      <img src="./assets/media/pixelbuddy_logo.svg" />
+    </div>
+    <h2 class="order-2 regular">A Figma based pixel character builder.</h2>
+    <a href="https://www.figma.com/file/FL9vQKJFP0y5aJVQGuMUVM/Pixelbuddy/duplicate" target="_blank">
+      <div class="btn copy-small">Open template in Figma</div>
+    </a>
+  </div>
+</div>
 
-        </div>
+<div class="media-player">
+  <video autoplay muted loop>
+    <source src="./assets/media/pixelbuddy-demo-video.mov" type="video/mp4">
+  </video>
+</div>
 
-      </div>
-    </header>
+<div class="benefits">
+  <div class="wrapper">
+    <ul>
+      <li>
+        <h3 class="order3">110.000+ combination</h3>
+        <p>Choose your face, clothing, hair and combine it to your unique version</p>
+      </li>
+      <li>
+        <h3 class="order3">Drag, Drop, Done</h3>
+        <p>Just drag from Figma assets on the Artboard and you're done!</p>
+      </li>
+      <li>
+        <h3 class="order3">Vectors > Pixel</h3>
+        <p><span class="strikethrough">Pixel</span>Vectorbuddy is based on Vectors which makes skaling a breeze</p>
+      </li>
+    </ul>
+  </div>
 
-    <div class="hero">
-      <div class="wrapper">
-        <div class="logo">
-          <img src="./assets/media/pixelbuddy_logo.svg" />
-        </div>
-        <h2 class="order-2 regular">A Figma based pixel character builder.</h2>
-        <a href="https://www.figma.com/file/FL9vQKJFP0y5aJVQGuMUVM/Pixelbuddy/duplicate" target="_blank">
-          <div class="btn copy-small">Open template in Figma</div>
-        </a>
+</div>
+
+<div class="features">
+
+  <div class="fifty-fifty">
+    <div class="content">
+      <div class="text">
+        <h2 class="order-1">Choose out of 60+ outfit combinations. </h2>
+        <p class="order-1">Easily switch your Buddy's look with the component selector.</p>
       </div>
     </div>
-
-    <div class="media-player">
-      <video autoplay muted loop>
-        <source src="./assets/media/pixelbuddy-demo-video.mov" type="video/mp4">
-      </video>
+    <div class="media">
+      <img src="assets/media/pxlbdy_feat_combinations.svg" />
     </div>
+  </div>
 
-    <div class="benefits">
-      <div class="wrapper">
-        <ul>
-          <li>
-            <h3 class="order3">110.000+ combination</h3>
-            <p>Choose your face, clothing, hair and combine it to your unique version</p>
-          </li>
-          <li>
-            <h3 class="order3">Drag, Drop, Done</h3>
-            <p>Just drag from Figma assets on the Artboard and you're done!</p>
-          </li>
-          <li>
-            <h3 class="order3">Vectors > Pixel</h3>
-            <p><span class="strikethrough">Pixel</span>Vectorbuddy is based on Vectors which makes skaling a breeze</p>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="features">
-
-      <div class="fifty-fifty">
-        <div class="content">
-          <div class="text">
-            <h2 class="order-1">Choose out of 60+ outfit combinations. </h2>
-            <p class="order-1">Easily switch your Buddy's look with the component selector.</p>
-          </div>
-        </div>
-        <div class="media">
-          <img src="assets/media/pxlbdy_feat_combinations.svg" />
-        </div>
-      </div>
-  
-      <div class="fifty-fifty flipped">
-        <div class="content">
-          <div class="text">
-            <h2 class="order-1">So much expression with so less pixel. </h2>
-            <p class="order-1">Choose the face and hairstyles to match your style.</p>
-          </div>
-        </div>
-        <div class="media">
-          <img src="assets/media/pxlbdy_feat_faces.svg" />
-        </div>
-      </div>
-  
-      <div class="fifty-fifty">
-        <div class="content">
-          <div class="text">
-            <h2 class="order-1">Pixelbuddy is running on Figma. </h2>
-            <p class="order-1">With the power of Figma, the whole pixelate world is open to your creations.</p>
-          </div>
-          <!-- <div class="btn sp-bot-m">Learn how to customize</div> -->
-          <a href="" class="link-arrow copy sp-bot-s">Learn how to customize</a>
-          <p class="copy-small">
-            Not familiar with Figma? <br />
-            Check out the <a href="">guides</a> or visit <a href="">Figma</a>.
-          </p>
-        </div>
-
-        <div class="media">
-          <img src="assets/media/pxlbdy_feat_figma.svg" />
-        </div>
-      </div>
-
-    </div>
-
-    <div class="teaser inverted">
-      <div class="wrapper">
-
-        <h2 class="order-1">
-          Help to make Pixelbuddy better
-        </h2>
-        <p class="copy">
-          Pixelbuddy is open source and released under the MIT license. 
-        </p>
-        <p class="copy">
-          Feel free to duplicate, iterate or just make your own version of a pixel character builder.
-        </p>
-        <p class="copy">
-          If you want to contribute and help to make Pixelbuddy better and better, hop over to github and <a href="https://github.com/markusoelhafen/pixelbuddy/issues/new?assignees=&labels=&template=component-request.md&title=">create an issue</a>.
-        </p>
-
+  <div class="fifty-fifty flipped">
+    <div class="content">
+      <div class="text">
+        <h2 class="order-1">So much expression with so less pixel. </h2>
+        <p class="order-1">Choose the face and hairstyles to match your style.</p>
       </div>
     </div>
+    <div class="media">
+      <img src="assets/media/pxlbdy_feat_faces.svg" />
+    </div>
+  </div>
 
-    <footer>
-      <div class="wrapper">
-        <div class="menu">
-          <div class="author">
-            Built in 2020 by <a href="https://markusoelhafen.com" target="_blank">Markus Ölhafen</a>
-          </div>
-          <div class="legal">
-            <ul>
-              <li>
-                <a href="https://markusoelhafen.com/sitesnotice.html" target="_blank">Sites notice</a>
-              </li>
-              <li>
-                <a href="https://markusoelhafen.com/privacypolicy.html" target="_blank">Privacy policy</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <div class="fifty-fifty">
+    <div class="content">
+      <div class="text">
+        <h2 class="order-1">Pixelbuddy is running on Figma. </h2>
+        <p class="order-1">With the power of Figma, the whole pixelate world is open to your creations.</p>
       </div>
-    </footer>
-  </body>
-</html>
+      <!-- <div class="btn sp-bot-m">Learn how to customize</div> -->
+      <a href="" class="link-arrow copy sp-bot-s">Learn how to customize</a>
+      <p class="copy-small">
+        Not familiar with Figma? <br />
+        Check out the <a href="/guides/">guides</a> or visit <a href="">Figma</a>.
+      </p>
+    </div>
+
+    <div class="media">
+      <img src="assets/media/pxlbdy_feat_figma.svg" />
+    </div>
+  </div>
+
+</div>
+
+<div class="teaser inverted">
+  <div class="wrapper">
+
+    <h2 class="order-1">
+      Help to make Pixelbuddy better
+    </h2>
+    <p class="copy">
+      Pixelbuddy is open source and released under the MIT license. 
+    </p>
+    <p class="copy">
+      Feel free to duplicate, iterate or just make your own version of a pixel character builder.
+    </p>
+    <p class="copy">
+      If you want to contribute and help to make Pixelbuddy better and better, hop over to github and <a href="https://github.com/markusoelhafen/pixelbuddy/issues/new?assignees=&labels=&template=component-request.md&title=">create an issue</a>.
+    </p>
+
+  </div>
+</div>
