@@ -293,6 +293,10 @@ footer {
     margin-top: 30px; }
   .guides p > a {
     color: #F59500; }
+  .guides img {
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 0 black;
+    margin: 0 10px 30px 10px; }
 
 .wrapper {
   max-width: calc(960px + (24px*2));

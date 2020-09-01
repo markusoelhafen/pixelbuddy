@@ -31,4 +31,10 @@
   p > a {
     color: $yellow;
   }
+
+  img {
+    border: 3px solid black;
+    box-shadow: 3px 3px 0 0 black;
+    margin: 0 10px 30px 10px;
+  }
 }
