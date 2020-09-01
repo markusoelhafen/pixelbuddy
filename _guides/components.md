@@ -17,4 +17,9 @@ You can switch the display from more compact tiles preview to a list which also 
 
 Once you found a component you want to use drag and drop it on the Artboard. The component might look a little small when you're dragging it, but will resize to it orignal file once you release it on the Artboard.
 
-## Replacing
+## Replacing Components
+One option would be to just delete the selected component and place a new one on the artboard.
+
+*Alternatively* you can exchange the components with each other via the component selector.
+Select the element you want to exchange. 
+On the right hand panel you find the section called ‘Instance’. In the dropddown below, select the option you want to use.
