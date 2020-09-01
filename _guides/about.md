@@ -1,6 +1,8 @@
 ---
 layout: guide
 title: About
+permalink: /guides/
+toc: true
 ---
 
 # About
