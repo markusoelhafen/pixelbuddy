@@ -277,7 +277,8 @@ footer {
 
 .guides {
   margin-left: 8.33%;
-  margin-bottom: 200px; }
+  margin-bottom: 200px;
+  width: 75%; }
   .guides h1 {
     margin: 30px 0; }
     .guides h1:first-of-type {
