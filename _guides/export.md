@@ -14,6 +14,10 @@ You're almost ready – well done! Follow these three steps to export your Pixel
 3. In the right toobar on the bottom you find the area ‘Export’. Click there and select your desired file format.
 For most cases PNG is just fine.
 
+
+![Export Group](/assets/media/faq-7-export-group.png)
+![Export Dialog](/assets/media/faq-7-export-dialog.png)
+
 ## Scaling
 As the name suggests Pixelbuddy is based on pixels. But in other usecases you might want to have a bigger image of your pixel character.
 
