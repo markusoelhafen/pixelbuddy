@@ -4,6 +4,18 @@ title: What's new
 ---
 
 # What's new
+
+## v1.0
+### Improvements
+Yay, the big 1.0 is here! 🏆🥂
+Thanks to Figma community beta, Pixelbuddy is now also available there, for people who already use Figma. That makes using Pixelbuddy even easier. 
+* Updated Figma file. Now much simpler and straight forward, as guides and infos are displayed in the web.
+* Update guides (now only online)
+* Now with Accessories! 🎉 (more to come soon)
+### Bugfixes
+* Reduce number of greys
+* Rename greys
+
 ## v0.1.4
 ### Improvements
 * Add 7 new Hair styles
